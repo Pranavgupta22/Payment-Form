@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>
+       pranav payment form
+</title>
+ <link rel="stylesheet" href="paymentform.css">
+</head>
+<body>
+<form action="">
+    <div class="container">
+<h1>PAYMENT FORM</h1>
+    <h4>Please enter the information below:-</h4>
+<h2>PERSONAL INFORMATION</h2>
+<p>Name:<input type="text" name="name" size="10" required placeholder="Pranav Gupta" class="pg" ></p>
+    <fieldset>
+        <legend>Gender</legend><br>
+    <p>
+    Male <input type="radio" name="gender" id="male" class="pg" required>
+        Female<input type="radio" name="gender" id="female" class="pg" required>
+        Other<input type="radio" name="gender" id="other" class="pg" required></p>
+    </fieldset>
+    <p>
+        Address: <textarea name="address" id="address" cols="20" rows="4" required placeholder="Enter your address" class="pg" >
+        </textarea></p>
+    <p>
+        Email:<input type="email" name="email" id="email" required placeholder="pranavgupta22@gmail.com"class="textarea" >
+    </p>
+    <p>
+        Pincode:<input type="number" name="pincode" id="pincode" required placeholder="123456" class="pg" >
+    </p>
+    <h2>PAYMENT INFORMATION</h2>
+    <p>Card type
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select card type--</option>
+             <option value="visa">Visa</option>
+             <option value="rupay">Rupay</option>
+             <option value="mastercard">Master card</option>
+        </select>
+    </p>
+    <p>
+        Card Number:<input type="number" name="card_number" id="card_number" required placeholder="1111-2222-3333-4444"class="pg" >
+    </p>
+    <p>
+        Expiration Date:<input type="date" name="exdate" id="exdate" class="pg"  required >
+    </p>
+    <p>
+        CVV:<input type="password" name="cvv" id="cvv" required placeholder="123" class="pg" ><br>
+        <input type="submit" value="Pay now" <a="response page pranav paymenet form"> >
+         <input type="reset" value="Reset">
+        </p>
+    </div>
+    </body>
+</html>
